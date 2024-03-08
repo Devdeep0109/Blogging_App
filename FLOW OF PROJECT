@@ -1,0 +1,26 @@
+npm init
+npm i express nodemon ejs
+then apply bootstrap from bootstrap cdn
+then make folder routes, controllers ,models , views....
+then make views -> (home) and set routes / -> home
+then make views -> folder(partials -> files(head ,nav ,scripts))
+
+..................................
+DATABASE..........
+models -> user.js 
+connecting mongoDb
+in user.js build a schema for user.
+in that we hash the password
+
+..............................
+frontend  and backend creation
+1.1.
+signup page:
+crete signup route in route->(user.js)
+method(get) -signup to signup.ejs.
+method(post)-signup data from user form to db  
+1.2.
+signup.ejs
+create form and action -> user/signup and method ->post
+
+
